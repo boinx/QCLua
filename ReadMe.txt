@@ -4,10 +4,12 @@ This plugin was developed for BoinxTV. The purpose was the that the previously u
 
 The plug-in is designed not to use any private (Quartz Composer) API. So the plug-in can be bundled with an app that is shipped through the Apple App Store.
 
+Install the plug-in to ~/Library/Graphics/Quartz Composer Plug-Ins/ or /Library/Graphics/Quartz Composer Plug-Ins/ to make the patch available for all users on the computer. Starting with 10.7 this ~/Library folder is hidden. Use the Finder, select Go ⇢ Go to Folder … (⇧⌘G) and type in ~/Library to go to the folder.
+
 
 See License.txt for license information.
 
 
 For more information about custom BoinxTV layers see:
 http://www.boinx.com/boinxtv/creativepossibilities/
- 
+http://docs.boinxtv.com/lua_patch

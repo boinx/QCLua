@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		4CC83757154EE4BB00CA0EAF /* Build and Install */ = {
+		4CC83757154EE4BB00CA0EAF /* QCLUA Build and Install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4CC83758154EE4BB00CA0EAF /* Build configuration list for PBXAggregateTarget "Build and Install" */;
+			buildConfigurationList = 4CC83758154EE4BB00CA0EAF /* Build configuration list for PBXAggregateTarget "QCLUA Build and Install" */;
 			buildPhases = (
 				4CC8375B154EE4C500CA0EAF /* ShellScript */,
 			);
 			dependencies = (
 				4CC8375D154EE4E100CA0EAF /* PBXTargetDependency */,
 			);
-			name = "Build and Install";
+			name = "QCLUA Build and Install";
 			productName = "Build and Install";
 		};
 /* End PBXAggregateTarget section */
@@ -84,6 +84,8 @@
 		501912721504EE3200299676 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberMarker.m; sourceTree = "<group>"; };
 		501912731504EE3200299676 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberView.h; sourceTree = "<group>"; };
 		501912741504EE3200299676 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberView.m; sourceTree = "<group>"; };
+		5047400A16DF77E700EA74CC /* QCLUA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QCLUA.xcconfig; sourceTree = "<group>"; };
+		5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BuildNumber.xcconfig; sourceTree = "<group>"; };
 		5056820415078932004A2B25 /* lua+ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lua+ObjC.h"; sourceTree = "<group>"; };
 		5056820515078933004A2B25 /* lua+ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "lua+ObjC.m"; sourceTree = "<group>"; };
 		50848B081500F45A00A64E33 /* QCLUAPlugInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLUAPlugInViewController.h; sourceTree = "<group>"; };
@@ -178,9 +180,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5047400916DF77B000EA74CC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				5047400A16DF77E700EA74CC /* QCLUA.xcconfig */,
+				5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		50FCC97C14FF88F7003C383D = {
 			isa = PBXGroup;
 			children = (
+				5047400916DF77B000EA74CC /* Config */,
 				50FCC99514FF88F7003C383D /* QCLUA */,
 				50FCC98A14FF88F7003C383D /* Frameworks */,
 				50FCC98914FF88F7003C383D /* Products */,
@@ -350,8 +362,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CC83757154EE4BB00CA0EAF /* Build and Install */,
 				50FCC98714FF88F7003C383D /* QCLUA */,
+				4CC83757154EE4BB00CA0EAF /* QCLUA Build and Install */,
 			);
 		};
 /* End PBXProject section */
@@ -480,6 +492,7 @@
 		};
 		50FCC99F14FF88F7003C383D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5047400A16DF77E700EA74CC /* QCLUA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -504,13 +517,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		50FCC9A014FF88F7003C383D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5047400A16DF77E700EA74CC /* QCLUA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -529,6 +543,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -538,12 +553,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QCLUA/QCLUA-Prefix.pch";
 				INFOPLIST_FILE = "QCLUA/QCLUA-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
@@ -555,12 +568,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QCLUA/QCLUA-Prefix.pch";
 				INFOPLIST_FILE = "QCLUA/QCLUA-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
-				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = plugin;
@@ -570,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CC83758154EE4BB00CA0EAF /* Build configuration list for PBXAggregateTarget "Build and Install" */ = {
+		4CC83758154EE4BB00CA0EAF /* Build configuration list for PBXAggregateTarget "QCLUA Build and Install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CC83759154EE4BB00CA0EAF /* Debug */,

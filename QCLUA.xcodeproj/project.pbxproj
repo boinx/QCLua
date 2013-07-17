@@ -33,9 +33,7 @@
 		50CB4E7A150A21690068D9E4 /* lua+QuartzComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CB4E79150A21690068D9E4 /* lua+QuartzComposer.m */; };
 		50FCC98C14FF88F7003C383D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FCC98B14FF88F7003C383D /* Cocoa.framework */; };
 		50FCC98E14FF88F7003C383D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FCC98D14FF88F7003C383D /* Quartz.framework */; };
-		50FCC99A14FF88F7003C383D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50FCC99814FF88F7003C383D /* InfoPlist.strings */; };
 		50FCC99D14FF88F7003C383D /* QCLUAPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC99C14FF88F7003C383D /* QCLUAPlugIn.m */; };
-		50FCC9A614FF99F1003C383D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50FCC9A814FF99F1003C383D /* Localizable.strings */; };
 		50FCC9E514FFBA4F003C383D /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AA14FFBA4F003C383D /* lapi.c */; };
 		50FCC9E614FFBA4F003C383D /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AC14FFBA4F003C383D /* lauxlib.c */; settings = {COMPILER_FLAGS = "-Xanalyzer -analyzer-disable-checker"; }; };
 		50FCC9E714FFBA4F003C383D /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AE14FFBA4F003C383D /* lbaselib.c */; };
@@ -84,7 +82,7 @@
 		501912721504EE3200299676 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberMarker.m; sourceTree = "<group>"; };
 		501912731504EE3200299676 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberView.h; sourceTree = "<group>"; };
 		501912741504EE3200299676 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberView.m; sourceTree = "<group>"; };
-		5047400A16DF77E700EA74CC /* QCLUA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QCLUA.xcconfig; sourceTree = "<group>"; };
+		5047400A16DF77E700EA74CC /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BuildNumber.xcconfig; sourceTree = "<group>"; };
 		5056820415078932004A2B25 /* lua+ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lua+ObjC.h"; sourceTree = "<group>"; };
 		5056820515078933004A2B25 /* lua+ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "lua+ObjC.m"; sourceTree = "<group>"; };
@@ -100,11 +98,9 @@
 		50FCC99114FF88F7003C383D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		50FCC99214FF88F7003C383D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50FCC99714FF88F7003C383D /* QCLUA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QCLUA-Info.plist"; sourceTree = "<group>"; };
-		50FCC99914FF88F7003C383D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50FCC99B14FF88F7003C383D /* QCLUAPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCLUAPlugIn.h; sourceTree = "<group>"; };
 		50FCC99C14FF88F7003C383D /* QCLUAPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCLUAPlugIn.m; sourceTree = "<group>"; };
 		50FCC99E14FF88F7003C383D /* QCLUA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCLUA-Prefix.pch"; sourceTree = "<group>"; };
-		50FCC9A714FF99F1003C383D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50FCC9AA14FFBA4F003C383D /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
 		50FCC9AB14FFBA4F003C383D /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
 		50FCC9AC14FFBA4F003C383D /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
@@ -183,7 +179,7 @@
 		5047400916DF77B000EA74CC /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				5047400A16DF77E700EA74CC /* QCLUA.xcconfig */,
+				5047400A16DF77E700EA74CC /* Project.xcconfig */,
 				5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */,
 			);
 			path = Config;
@@ -248,8 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				50FCC99714FF88F7003C383D /* QCLUA-Info.plist */,
-				50FCC99814FF88F7003C383D /* InfoPlist.strings */,
-				50FCC9A814FF99F1003C383D /* Localizable.strings */,
 				50FCCA0714FFC5FE003C383D /* Template.lua */,
 			);
 			name = "Supporting Files";
@@ -373,8 +367,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FCC99A14FF88F7003C383D /* InfoPlist.strings in Resources */,
-				50FCC9A614FF99F1003C383D /* Localizable.strings in Resources */,
 				50FCCA0814FFC5FE003C383D /* Template.lua in Resources */,
 				50848B0D1500F47400A64E33 /* QCLUAPlugInViewController.xib in Resources */,
 			);
@@ -454,25 +446,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		50FCC99814FF88F7003C383D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50FCC99914FF88F7003C383D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		50FCC9A814FF99F1003C383D /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50FCC9A714FF99F1003C383D /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		4CC83759154EE4BB00CA0EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -492,7 +465,7 @@
 		};
 		50FCC99F14FF88F7003C383D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5047400A16DF77E700EA74CC /* QCLUA.xcconfig */;
+			baseConfigurationReference = 5047400A16DF77E700EA74CC /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -524,7 +497,7 @@
 		};
 		50FCC9A014FF88F7003C383D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5047400A16DF77E700EA74CC /* QCLUA.xcconfig */;
+			baseConfigurationReference = 5047400A16DF77E700EA74CC /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";

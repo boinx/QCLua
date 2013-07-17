@@ -15,9 +15,9 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>${QCLUA_VERSION}</string>
+	<string>${BX_VERSION}</string>
 	<key>CFBundleVersion</key>
-	<string>${QCLUA_BUILD_NUMBER}</string>
+	<string>${BX_BUILD_NUMBER}</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012 Boinx Software. All rights reserved.</string>
 	<key>QCPlugInClasses</key>

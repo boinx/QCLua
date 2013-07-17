@@ -8,4 +8,4 @@
 
 #include "BuildNumber.xcconfig"
 
-QCLUA_VERSION=1.2
+BX_VERSION=1.2

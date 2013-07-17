@@ -82,44 +82,11 @@ static NSString * const QCLUAPlugInPreviousValue = @"QCLUAPlugInPreviousValue";
 
 + (NSDictionary *)attributes
 {
-	NSBundle *bundle = [self bundle];
-	
-	NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
-    
-	[attributes setObject:NSLocalizedStringWithDefaultValue(@"PlugInName", nil, bundle, @"LUA script", @"Short name") forKey:QCPlugInAttributeNameKey];
-	[attributes setObject:NSLocalizedStringWithDefaultValue(@"PlugInDescription", nil, bundle, @"LUA script plug-in", @"Long description") forKey:QCPlugInAttributeDescriptionKey];
-	[attributes setObject:NSLocalizedStringWithDefaultValue(@"PlugInCopyright", nil, bundle, @"© 2012 Boinx Software Ltd.", @"Copyright text") forKey:QCPlugInAttributeCopyrightKey];
-    
-#if defined(MAC_OS_X_VERSION_10_7) && (MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_7)
-	if(&QCPlugInAttributeCategoriesKey)
-    {
-		NSArray *categories = [NSLocalizedStringWithDefaultValue(@"PlugInCategories", nil, bundle, @"Program;Utility", @"Categories seperated by semicolon") componentsSeparatedByString:@";"];
-		if(categories.count > 0)
-		{
-			[attributes setObject:categories forKey:QCPlugInAttributeCategoriesKey];
-		}
-	}
-#endif
-    
-#if defined(MAC_OS_X_VERSION_10_7) && (MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_7)
-    if(&QCPlugInAttributeExamplesKey)
-    {
-		NSArray *exampleStrings = [NSLocalizedStringWithDefaultValue(@"PlugInExamples", nil, bundle, @"http://www.boinx.com;http://www.lua.org", @"Example URLs seperated by semicolon") componentsSeparatedByString:@";"];
-		NSMutableArray *examples = [NSMutableArray arrayWithCapacity:exampleStrings.count];
-		for(NSString *exampleString in exampleStrings)
-		{
-			[examples addObject:[NSURL URLWithString:exampleString]];
-		}
-
-		if(examples.count > 0)
-		{
-			[attributes setObject:examples forKey:QCPlugInAttributeExamplesKey];
-  
-		}
-	}
-#endif
-
-	return attributes;
+	return @{
+		QCPlugInAttributeNameKey: @"LUA script",
+		QCPlugInAttributeDescriptionKey: @"LUA script plug-in",
+		QCPlugInAttributeCopyrightKey: @"© 2013 Boinx Software Ltd."
+	};
 }
 
 + (NSDictionary *)attributesForPropertyPortWithKey:(NSString *)key

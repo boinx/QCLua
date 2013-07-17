@@ -7,3 +7,5 @@
 //
 
 #include "BuildNumber.xcconfig"
+
+QCLUA_VERSION=1.2

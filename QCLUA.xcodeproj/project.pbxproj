@@ -76,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C43CD9317A8FD8100F3CC9D /* BXRevision.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BXRevision.sh; sourceTree = "<group>"; };
 		5019126E1504D58600299676 /* QCLUAFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLUAFormatter.h; sourceTree = "<group>"; };
 		5019126F1504D58600299676 /* QCLUAFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLUAFormatter.m; sourceTree = "<group>"; };
 		501912711504EE3200299676 /* NoodleLineNumberMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberMarker.h; sourceTree = "<group>"; };
@@ -176,6 +177,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C43CD9217A8FD6F00F3CC9D /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4C43CD9317A8FD8100F3CC9D /* BXRevision.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
 		5047400916DF77B000EA74CC /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +197,7 @@
 		50FCC97C14FF88F7003C383D = {
 			isa = PBXGroup;
 			children = (
+				4C43CD9217A8FD6F00F3CC9D /* Scripts */,
 				5047400916DF77B000EA74CC /* Config */,
 				50FCC99514FF88F7003C383D /* QCLUA */,
 				50FCC98A14FF88F7003C383D /* Frameworks */,

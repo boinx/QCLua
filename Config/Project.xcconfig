@@ -9,3 +9,5 @@
 #include "BuildNumber.xcconfig"
 
 BX_VERSION=1.2
+
+CODE_SIGN_IDENTITY = Mac Developer

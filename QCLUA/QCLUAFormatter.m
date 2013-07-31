@@ -44,7 +44,7 @@
 		
 		// LUA keywords
 		{
-			NSColor *LUAAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+			NSDictionary *const LUAAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
 				[NSColor colorWithDeviceRed:0.2f green:0.2f blue:0.7f alpha:1.0f], NSForegroundColorAttributeName,
 				nil
 			];

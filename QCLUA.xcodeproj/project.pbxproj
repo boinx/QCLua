@@ -188,8 +188,8 @@
 		5047400916DF77B000EA74CC /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				5047400A16DF77E700EA74CC /* Project.xcconfig */,
 				5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */,
+				5047400A16DF77E700EA74CC /* Project.xcconfig */,
 			);
 			path = Config;
 			sourceTree = "<group>";

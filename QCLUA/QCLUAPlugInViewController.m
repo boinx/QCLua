@@ -55,6 +55,8 @@
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textStorageDidProcessEditing:) name:NSTextStorageDidProcessEditingNotification object:self.textView.textStorage];
 
+	self.textView.automaticQuoteSubstitutionEnabled = NO;
+	
 	if(self.scrollView && !self.lineNumberView)
 	{
 		self.lineNumberView = [[[NoodleLineNumberView alloc] initWithScrollView:self.scrollView] autorelease];

@@ -55,7 +55,7 @@
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textStorageDidProcessEditing:) name:NSTextStorageDidProcessEditingNotification object:self.textView.textStorage];
 
-	self.textView.automaticQuoteSubstitutionEnabled = NO;
+	self.textView.enabledTextCheckingTypes = 0;
 	
 	if(self.scrollView && !self.lineNumberView)
 	{

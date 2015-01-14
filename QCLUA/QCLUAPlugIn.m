@@ -85,7 +85,7 @@ static NSString * const QCLUAPlugInPreviousValue = @"QCLUAPlugInPreviousValue";
 	return @{
 		QCPlugInAttributeNameKey: @"LUA script",
 		QCPlugInAttributeDescriptionKey: @"LUA script plug-in",
-		QCPlugInAttributeCopyrightKey: @"© 2013 Boinx Software Ltd.",
+		QCPlugInAttributeCopyrightKey: @"© 1994–2015 Lua.org, PUC-Rio & © 2013-2015 Boinx Software Ltd.",
 		QCPlugInAttributeCategoriesKey: @[
 			@"Program", // used by JavaScript patch
 		],

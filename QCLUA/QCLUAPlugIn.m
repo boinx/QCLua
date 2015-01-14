@@ -50,6 +50,11 @@ static NSString * const QCLUAPlugInPreviousValue = @"QCLUAPlugInPreviousValue";
 
 - (void)setCode:(NSAttributedString *)newCode
 {
+	if([newCode isKindOfClass:NSString.class])
+	{
+		newCode = [[[NSAttributedString alloc] initWithString:(NSString *)newCode] autorelease];
+	}
+	
 	if(_code != newCode)
 	{
 		BOOL update = ![newCode.string isEqualToString:_code.string];
@@ -156,6 +161,27 @@ static NSString * const QCLUAPlugInPreviousValue = @"QCLUAPlugInPreviousValue";
 	self.viewController = nil;
 	
 	[super dealloc];
+}
+
+- (id)serializedValueForKey:(NSString *)key
+{
+	if([key isEqualToString:@"code"])
+	{
+		return self.code.string;
+	}
+	
+	return [super serializedValueForKey:key];
+}
+
+- (void)setSerializedValue:(id)serializedValue forKey:(NSString *)key
+{
+	if([key isEqualToString:@"code"] && [serializedValue isKindOfClass:NSString.class])
+	{
+		self.code = serializedValue;
+		return;
+	}
+	
+	[super setSerializedValue:serializedValue forKey:key];
 }
 
 - (QCPlugInViewController *)createViewController

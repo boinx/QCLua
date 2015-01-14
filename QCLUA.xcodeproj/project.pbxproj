@@ -30,11 +30,9 @@
 		507BE2C71A6684610005CAD6 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2901A6684610005CAD6 /* lfunc.c */; };
 		507BE2C81A6684610005CAD6 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2921A6684610005CAD6 /* lgc.c */; };
 		507BE2C91A6684610005CAD6 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2941A6684610005CAD6 /* linit.c */; };
-		507BE2CA1A6684610005CAD6 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2951A6684610005CAD6 /* liolib.c */; };
 		507BE2CB1A6684610005CAD6 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2961A6684610005CAD6 /* llex.c */; };
 		507BE2CC1A6684610005CAD6 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2991A6684610005CAD6 /* lmathlib.c */; };
 		507BE2CD1A6684610005CAD6 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE29A1A6684610005CAD6 /* lmem.c */; };
-		507BE2CE1A6684610005CAD6 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE29C1A6684610005CAD6 /* loadlib.c */; };
 		507BE2CF1A6684610005CAD6 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE29D1A6684610005CAD6 /* lobject.c */; };
 		507BE2D01A6684610005CAD6 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE29F1A6684610005CAD6 /* lopcodes.c */; };
 		507BE2D11A6684610005CAD6 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 507BE2A11A6684610005CAD6 /* loslib.c */; };
@@ -99,14 +97,12 @@
 		507BE2921A6684610005CAD6 /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
 		507BE2931A6684610005CAD6 /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
 		507BE2941A6684610005CAD6 /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
-		507BE2951A6684610005CAD6 /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
 		507BE2961A6684610005CAD6 /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
 		507BE2971A6684610005CAD6 /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
 		507BE2981A6684610005CAD6 /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
 		507BE2991A6684610005CAD6 /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
 		507BE29A1A6684610005CAD6 /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
 		507BE29B1A6684610005CAD6 /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
-		507BE29C1A6684610005CAD6 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
 		507BE29D1A6684610005CAD6 /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
 		507BE29E1A6684610005CAD6 /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
 		507BE29F1A6684610005CAD6 /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
@@ -290,14 +286,12 @@
 				507BE2921A6684610005CAD6 /* lgc.c */,
 				507BE2931A6684610005CAD6 /* lgc.h */,
 				507BE2941A6684610005CAD6 /* linit.c */,
-				507BE2951A6684610005CAD6 /* liolib.c */,
 				507BE2961A6684610005CAD6 /* llex.c */,
 				507BE2971A6684610005CAD6 /* llex.h */,
 				507BE2981A6684610005CAD6 /* llimits.h */,
 				507BE2991A6684610005CAD6 /* lmathlib.c */,
 				507BE29A1A6684610005CAD6 /* lmem.c */,
 				507BE29B1A6684610005CAD6 /* lmem.h */,
-				507BE29C1A6684610005CAD6 /* loadlib.c */,
 				507BE29D1A6684610005CAD6 /* lobject.c */,
 				507BE29E1A6684610005CAD6 /* lobject.h */,
 				507BE29F1A6684610005CAD6 /* lopcodes.c */,
@@ -407,7 +401,6 @@
 				507BE2D31A6684610005CAD6 /* lstate.c in Sources */,
 				507BE2C51A6684610005CAD6 /* ldo.c in Sources */,
 				507BE2C91A6684610005CAD6 /* linit.c in Sources */,
-				507BE2CE1A6684610005CAD6 /* loadlib.c in Sources */,
 				507BE2BE1A6684610005CAD6 /* lbaselib.c in Sources */,
 				507BE2CB1A6684610005CAD6 /* llex.c in Sources */,
 				507BE2BF1A6684610005CAD6 /* lbitlib.c in Sources */,
@@ -436,7 +429,6 @@
 				507BE2D71A6684610005CAD6 /* ltablib.c in Sources */,
 				507BE2D11A6684610005CAD6 /* loslib.c in Sources */,
 				5056820615078933004A2B25 /* lua+ObjC.m in Sources */,
-				507BE2CA1A6684610005CAD6 /* liolib.c in Sources */,
 				50CB4E7A150A21690068D9E4 /* lua+QuartzComposer.m in Sources */,
 				507BE2DD1A6684610005CAD6 /* lvm.c in Sources */,
 				507BE2D41A6684610005CAD6 /* lstring.c in Sources */,

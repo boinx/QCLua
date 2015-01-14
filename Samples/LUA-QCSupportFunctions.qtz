@@ -9,7 +9,7 @@
 	<key>editorViewerWindow</key>
 	<string>1161 729 512 430 0 0 1920 1178 </string>
 	<key>frameworkVersion</key>
-	<string>284</string>
+	<string>325.1</string>
 	<key>rootPatch</key>
 	<dict>
 		<key>class</key>
@@ -55,115 +55,27 @@
 						<key>plugInState</key>
 						<dict>
 							<key>code</key>
-							<data>
-							YnBsaXN0MDDUAQIDBAUG
-							fX5YJHZlcnNpb25YJG9i
-							amVjdHNZJGFyY2hpdmVy
-							VCR0b3ASAAGGoK8QGQcI
-							ERIbJCUmLi81Oz5BSUxU
-							V19iam1xdXlVJG51bGzU
-							CQoLDA0ODxBYTlNTdHJp
-							bmdfEA9OU0F0dHJpYnV0
-							ZUluZm9cTlNBdHRyaWJ1
-							dGVzViRjbGFzc4ACgBaA
-							A4AYXxEBjC0tIGF2YWls
-							aWFibGUgdHlwZXMgYXJl
-							Ci0tICBRQ19CT09MRUFO
-							Ci0tICBRQ19OVU1CRVIK
-							LS0gIFFDX1NUUklORwot
-							LSAgUUNfU1RSVUNUCi0t
-							ICBRQ19JTkRFWAoKLS0g
-							YW4gb3V0cHV0IGNhbiBi
-							ZSBkZWZpbmVkIHdpdGgg
-							b3V0TkFNRSA9IFRZUEUK
-							b3V0UmVzdWx0ID0gUUNf
-							U1RSSU5HCgotLSBzcGVj
-							aWFsIHZhcmlhYmxlcwot
-							LSAgcGF0Y2h0aW1lIGNv
-							bnRhaW5zIHRoZSB0aW1l
-							IG9mIHRoZSBwYXRjaAoK
-							LS0gZGVmaW5lIGEgbWFp
-							biBmdW5jdGlvbiB3aXRo
-							b3V0IHBhcmFtdGVycwot
-							LSBtYWluKCkgd2lsbCBi
-							ZSBjYWxsZWQgZWFjaCB0
-							aW1lIHRoZSBjb2RlIG9y
-							IGlucHV0cyBhcmUgY2hh
-							bmdlZAptYWluID0gZnVu
-							Y3Rpb24oKQoKCW91dFJl
-							c3VsdCA9IHFjc3lzdGVt
-							dmVyc2lvbgoKZW5kCtIT
-							DBQaWk5TLm9iamVjdHOl
-							FRYXGBmABIANgA+AEYAT
-							gBXTHBMMHSAjV05TLmtl
-							eXOiHh+ABYAGoiEigAeA
-							CoAMVk5TRm9udFdOU0Nv
-							bG9y1CcoKQwqKywtVk5T
-							U2l6ZVhOU2ZGbGFnc1ZO
-							U05hbWUjQCQAAAAAAAAQ
-							EIAIgAlWTW9uYWNv0jAx
-							MjNaJGNsYXNzbmFtZVgk
-							Y2xhc3Nlc1ZOU0ZvbnSi
-							MjRYTlNPYmplY3TTNjcM
-							ODk6VU5TUkdCXE5TQ29s
-							b3JTcGFjZU8QJzAuNjk5
-							OTk5OTg4MSAwLjY5OTk5
-							OTk4ODEgMC42OTk5OTk5
-							ODgxABACgAvSMDE8PVdO
-							U0NvbG9yojw00jAxP0Bc
-							TlNEaWN0aW9uYXJ5oj80
-							0xwTDEJFI6IeH4AFgAai
-							IUeAB4AOgAzTNjcMSjk6
-							RjAgMCAwAIAL0xwTDE1Q
-							I6IeH4AFgAaiIVKAB4AQ
-							gAzTNjcMVTk6TxAnMC4x
-							MDAwMDAwMDE1IDAuNjAw
-							MDAwMDIzOCAwLjEwMDAw
-							MDAwMTUAgAvTHBMMWFsj
-							oh4fgAWABqIhXYAHgBKA
-							DNM2NwxgOTpPEBAwIDAu
-							NDAwMDAwMDA2IDAAgAvT
-							HBMMY2Yjoh4fgAWABqIh
-							aIAHgBSADNM2NwxrOTpP
-							ECUwLjIwMDAwMDAwMyAw
-							LjIwMDAwMDAwMyAwLjY5
-							OTk5OTk4ODEAgAvSMDFu
-							b15OU011dGFibGVBcnJh
-							eaNucDRXTlNBcnJhedJy
-							DHN0V05TLmRhdGFPEEQX
-							AAEBDgABAQ0AAQENAAEB
-							DQABAQwAAgEvAAEBCQID
-							AQkDAgEUAAEBLAACASsA
-							AQFBAAEBBAIDAQgEBQEJ
-							AhQBAwQBAYAX0jAxdndd
-							TlNNdXRhYmxlRGF0YaN2
-							eDRWTlNEYXRh0jAxentf
-							EBJOU0F0dHJpYnV0ZWRT
-							dHJpbmeifDRfEBJOU0F0
-							dHJpYnV0ZWRTdHJpbmdf
-							EA9OU0tleWVkQXJjaGl2
-							ZXLRf4BUcm9vdIABAAgA
-							EQAaACMALQAyADcAUwBZ
-							AGIAawB9AIoAkQCTAJUA
-							lwCZAikCLgI5Aj8CQQJD
-							AkUCRwJJAksCUgJaAl0C
-							XwJhAmQCZgJoAmoCcQJ5
-							AoICiQKSApkCogKkAqYC
-							qAKvArQCvwLIAs8C0gLb
-							AuIC6AL1Ax8DIQMjAygD
-							MAMzAzgDRQNIA08DUgNU
-							A1YDWQNbA10DXwNmA20D
-							bwN2A3kDewN9A4ADggOE
-							A4YDjQO3A7kDwAPDA8UD
-							xwPKA8wDzgPQA9cD6gPs
-							A/MD9gP4A/oD/QP/BAEE
-							AwQKBDIENAQ5BEgETARU
-							BFkEYQSoBKoErwS9BMEE
-							yATNBOIE5QT6BQwFDwUU
-							AAAAAAAAAgEAAAAAAAAA
-							gQAAAAAAAAAAAAAAAAAA
-							BRY=
-							</data>
+							<string>-- availiable types are
+--  QC_BOOLEAN
+--  QC_NUMBER
+--  QC_STRING
+--  QC_STRUCT
+--  QC_INDEX
+
+-- an output can be defined with outNAME = TYPE
+outResult = QC_STRING
+
+-- special variables
+--  patchtime contains the time of the patch
+
+-- define a main function without paramters
+-- main() will be called each time the code or inputs are changed
+main = function()
+
+	outResult = qcsystemversion
+
+end
+</string>
 						</dict>
 						<key>userInfo</key>
 						<data>
@@ -416,8 +328,8 @@
 			YXJ5AISEDE5TRGljdGlvbmFyeQCEhAhOU09iamVjdACFhAFpA5KE
 			hIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1i
 			ZXIAhIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5n
-			hpKEmpuEhAx7Q0dQb2ludD1kZH2dgcsBgwAAAAAAOHFAhpKEl5gI
-			cG9zaXRpb26GkoSam56dAAWGhg==
+			hpKEmpuEhAx7Q0dQb2ludD1kZH2dgcwBgR8BhpKEl5gIcG9zaXRp
+			b26GkoSam56dAAWGhg==
 			</data>
 		</dict>
 	</dict>

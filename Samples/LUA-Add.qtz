@@ -9,7 +9,7 @@
 	<key>editorViewerWindow</key>
 	<string>1019 484 512 430 0 0 1920 1178 </string>
 	<key>frameworkVersion</key>
-	<string>236.3</string>
+	<string>325.1</string>
 	<key>inputParameters</key>
 	<dict>
 		<key>A</key>
@@ -21,31 +21,18 @@
 	<dict>
 		<key>A</key>
 		<dict>
-			<key>description</key>
-			<string>The input port.</string>
 			<key>name</key>
-			<string>Input</string>
+			<string>A</string>
 		</dict>
 		<key>B</key>
 		<dict>
-			<key>description</key>
-			<string>The input port.</string>
 			<key>name</key>
-			<string>Input</string>
+			<string>B</string>
 		</dict>
 		<key>Result</key>
 		<dict>
-			<key>description</key>
-			<string>The output port.</string>
 			<key>name</key>
-			<string>Output</string>
-		</dict>
-		<key>_enable</key>
-		<dict>
-			<key>description</key>
-			<string>Controls execution of the patch.</string>
-			<key>name</key>
-			<string>Enable</string>
+			<string>Result</string>
 		</dict>
 	</dict>
 	<key>rootPatch</key>
@@ -137,87 +124,15 @@
 						<key>plugInState</key>
 						<dict>
 							<key>code</key>
-							<data>
-							YnBsaXN0MDDUAQIDBAUG
-							cXJYJHZlcnNpb25YJG9i
-							amVjdHNZJGFyY2hpdmVy
-							VCR0b3ASAAGGoK8QFwcI
-							ERIaIyQlLS40Oj1ASEtT
-							Vl5hZWltVSRudWxs1AkK
-							CwwNDg8QXE5TQXR0cmli
-							dXRlc1YkY2xhc3NYTlNT
-							dHJpbmdfEA9OU0F0dHJp
-							YnV0ZUluZm+AA4AWgAKA
-							FF8QZWluQSA9IFFDX05V
-							TUJFUgppbkIgPSBRQ19O
-							VU1CRVIKCm91dFJlc3Vs
-							dCA9IFFDX05VTUJFUgoK
-							bWFpbiA9IGZ1bmN0aW9u
-							KCkKCW91dFJlc3VsdCA9
-							IGluQSAqIGluQgplbmQK
-							0goTFBVaTlMub2JqZWN0
-							c4ATpBYXGBmABIANgA+A
-							EdMKGxMcHSBXTlMua2V5
-							c4AMoh4fgAWABqIhIoAH
-							gApWTlNGb250V05TQ29s
-							b3LUCiYnKCkqKyxWTlNO
-							YW1lVk5TU2l6ZVhOU2ZG
-							bGFnc4AJgAgjQCQAAAAA
-							AAAQEFZNb25hY2/SLzAx
-							MlokY2xhc3NuYW1lWCRj
-							bGFzc2VzVk5TRm9udKIx
-							M1hOU09iamVjdNMKNTY3
-							ODlcTlNDb2xvclNwYWNl
-							VU5TUkdCgAsQAk8QJzAu
-							MTAwMDAwMDAxNSAwLjYw
-							MDAwMDAyMzggMC4xMDAw
-							MDAwMDE1ANIvMDs8V05T
-							Q29sb3KiOzPSLzA+P1xO
-							U0RpY3Rpb25hcnmiPjPT
-							ChsTHEJFgAyiHh+ABYAG
-							oiFHgAeADtMKNTY3OEqA
-							C0YwIDAgMADTChsTHE1Q
-							gAyiHh+ABYAGoiFSgAeA
-							ENMKNTY3OFWAC08QEDAg
-							MC40MDAwMDAwMDYgMADT
-							ChsTHFhbgAyiHh+ABYAG
-							oiFdgAeAEtMKNTY3OGCA
-							C08QJTAuMjAwMDAwMDAz
-							IDAuMjAwMDAwMDAzIDAu
-							Njk5OTk5OTg4MQDSLzBi
-							Y15OU011dGFibGVBcnJh
-							eaNiZDNXTlNBcnJhedIK
-							ZmdoV05TLmRhdGGAFU8Q
-							MAMAAwEJAgEBAwADAQkC
-							AgEJAAMBCQICAQQAAwEI
-							AwQBCQADAQMAAwEDAAEB
-							AwMBAdIvMGprXU5TTXV0
-							YWJsZURhdGGjamwzVk5T
-							RGF0YdIvMG5vXxASTlNB
-							dHRyaWJ1dGVkU3RyaW5n
-							onAzXxASTlNBdHRyaWJ1
-							dGVkU3RyaW5nXxAPTlNL
-							ZXllZEFyY2hpdmVy0XN0
-							VHJvb3SAAQAIABEAGgAj
-							AC0AMgA3AFEAVwBgAG0A
-							dAB9AI8AkQCTAJUAlwD/
-							AQQBDwERARYBGAEaARwB
-							HgElAS0BLwEyATQBNgE5
-							ATsBPQFEAUwBVQFcAWMB
-							bAFuAXABeQF7AYIBhwGS
-							AZsBogGlAa4BtQHCAcgB
-							ygHMAfYB+wIDAgYCCwIY
-							AhsCIgIkAicCKQIrAi4C
-							MAIyAjkCOwJCAkkCSwJO
-							AlACUgJVAlcCWQJgAmIC
-							dQJ8An4CgQKDAoUCiAKK
-							AowCkwKVAr0CwgLRAtUC
-							3QLiAuoC7AMfAyQDMgM2
-							Az0DQgNXA1oDbwOBA4QD
-							iQAAAAAAAAIBAAAAAAAA
-							AHUAAAAAAAAAAAAAAAAA
-							AAOL
-							</data>
+							<string>inA = QC_NUMBER
+inB = QC_NUMBER
+
+outResult = QC_NUMBER
+
+main = function()
+	outResult = inA * inB
+end
+</string>
 						</dict>
 						<key>userInfo</key>
 						<data>
@@ -684,10 +599,10 @@
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9u
 			YXJ5AISEDE5TRGljdGlvbmFyeQCEhAhOU09iamVjdACFhAFpA5KE
-			hIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUA
-			lYQBKoSEDHtDR1BvaW50PWRkfZsABYaShJeYCXNjcm9sbGluZ4aS
-			hJmampuBtAGDAAAAAAC4dUCGkoSXmAp6b29tRmFjdG9yhpKEhIQI
-			TlNOdW1iZXIAmZqEhAFmnQGGhg==
+			hIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1i
+			ZXIAhIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5n
+			hpKEmpuEhAx7Q0dQb2ludD1kZH2dgbUBgwAAAAAAeHZAhpKEl5gI
+			cG9zaXRpb26GkoSam56dAAWGhg==
 			</data>
 		</dict>
 	</dict>

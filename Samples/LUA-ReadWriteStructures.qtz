@@ -9,17 +9,7 @@
 	<key>editorViewerWindow</key>
 	<string>1258 138 512 430 0 0 1920 1178 </string>
 	<key>frameworkVersion</key>
-	<string>236.3</string>
-	<key>portAttributes</key>
-	<dict>
-		<key>_enable</key>
-		<dict>
-			<key>description</key>
-			<string>Controls execution of the patch.</string>
-			<key>name</key>
-			<string>Enable</string>
-		</dict>
-	</dict>
+	<string>325.1</string>
 	<key>rootPatch</key>
 	<dict>
 		<key>class</key>
@@ -317,104 +307,23 @@
 						<key>plugInState</key>
 						<dict>
 							<key>code</key>
-							<data>
-							YnBsaXN0MDDUAQIDBAUG
-							eXpYJHZlcnNpb25YJG9i
-							amVjdHNZJGFyY2hpdmVy
-							VCR0b3ASAAGGoK8QGAcI
-							ERUcJC0uLzc4O0FER09S
-							Wl1laGxwdFUkbnVsbNQJ
-							CgsMDQ4PEFxOU0F0dHJp
-							YnV0ZXNWJGNsYXNzWE5T
-							U3RyaW5nXxAPTlNBdHRy
-							aWJ1dGVJbmZvgASAF4AC
-							gBXSChITFFlOUy5zdHJp
-							bmeAA18Q2WluQXJ0aWNs
-							ZXMgPSBRQ19TVFJVQ1QK
-							Cm91dExhdGVzdE5ld3Mg
-							PSBRQ19TVFJJTkcKCm1h
-							aW4gPSBmdW5jdGlvbigp
-							CgoJaWYgaW5BcnRpY2xl
-							cyA9PSBuaWwgdGhlbgoJ
-							CW91dExhdGVzdE5ld3Mg
-							PSAiTG9hZGluZyIKCQly
-							ZXR1cm4KCWVuZAoKCS0t
-							IGZpcnN0Cglsb2NhbCBh
-							cnRpY2xlID0gaW5BcnRp
-							Y2xlc1sxXQoKCW91dExh
-							dGVzdE5ld3MgPSBhcnRp
-							Y2xlLnRpdGxlCmVuZArS
-							FhcYGVokY2xhc3NuYW1l
-							WCRjbGFzc2VzXxAPTlNN
-							dXRhYmxlU3RyaW5noxga
-							G1hOU1N0cmluZ1hOU09i
-							amVjdNIKHR4fWk5TLm9i
-							amVjdHOAFKQgISIjgAWA
-							DoAQgBLTCiUdJicqV05T
-							LmtleXOADaIoKYAGgAei
-							KyyACIALVk5TRm9udFdO
-							U0NvbG9y1AowMTIzNDU2
-							Vk5TTmFtZVZOU1NpemVY
-							TlNmRmxhZ3OACoAJI0Ak
-							AAAAAAAAEBBWTW9uYWNv
-							0hYXOTpWTlNGb250ojkb
-							0wo8PT4/QFxOU0NvbG9y
-							U3BhY2VVTlNSR0KADBAC
-							TxAmMC42MDAwMDAwMjM4
-							IDAuMjAwMDAwMDAzIDAu
-							NjAwMDAwMDIzOADSFhdC
-							Q1dOU0NvbG9yokIb0hYX
-							RUZcTlNEaWN0aW9uYXJ5
-							okUb0wolHSZJTIANoigp
-							gAaAB6IrToAIgA/TCjw9
-							Pj9RgAxGMCAwIDAA0wol
-							HSZUV4ANoigpgAaAB6Ir
-							WYAIgBHTCjw9Pj9cgAxP
-							ECcwLjMwMDAwMDAxMTkg
-							MC4xMDAwMDAwMDE1IDAu
-							MzAwMDAwMDExOQDTCiUd
-							Jl9igA2iKCmABoAHoitk
-							gAiAE9MKPD0+P2eADE8Q
-							JTAuMjAwMDAwMDAzIDAu
-							MjAwMDAwMDAzIDAuNjk5
-							OTk5OTg4MQDSFhdpal5O
-							U011dGFibGVBcnJheaNp
-							axtXTlNBcnJhedIKbW5v
-							V05TLmRhdGGAFk8QRAoA
-							AwEJAgIBDQADAQkCAgEE
-							AAMBCAMFAQIDAQEKAAQB
-							AwMBAQQDAwENAA8BBgMC
-							AQMDDQEFAwsBCgAGAQ0A
-							EQEDAwEB0hYXcXJdTlNN
-							dXRhYmxlRGF0YaNxcxtW
-							TlNEYXRh0hYXdXZfEBlO
-							U011dGFibGVBdHRyaWJ1
-							dGVkU3RyaW5no3d4G18Q
-							GU5TTXV0YWJsZUF0dHJp
-							YnV0ZWRTdHJpbmdfEBJO
-							U0F0dHJpYnV0ZWRTdHJp
-							bmdfEA9OU0tleWVkQXJj
-							aGl2ZXLRe3xUcm9vdIAB
-							AAgAEQAaACMALQAyADcA
-							UgBYAGEAbgB1AH4AkACS
-							AJQAlgCYAJ0ApwCpAYUB
-							igGVAZ4BsAG0Ab0BxgHL
-							AdYB2AHdAd8B4QHjAeUB
-							7AH0AfYB+QH7Af0CAAIC
-							AgQCCwITAhwCIwIqAjMC
-							NQI3AkACQgJJAk4CVQJY
-							Al8CbAJyAnQCdgKfAqQC
-							rAKvArQCwQLEAssCzQLQ
-							AtIC1ALXAtkC2wLiAuQC
-							6wLyAvQC9wL5AvsC/gMA
-							AwIDCQMLAzUDPAM+A0ED
-							QwNFA0gDSgNMA1MDVQN9
-							A4IDkQOVA50DogOqA6wD
-							8wP4BAYECgQRBBYEMgQ2
-							BFIEZwR5BHwEgQAAAAAA
-							AAIBAAAAAAAAAH0AAAAA
-							AAAAAAAAAAAAAASD
-							</data>
+							<string>inArticles = QC_STRUCT
+
+outLatestNews = QC_STRING
+
+main = function()
+
+	if inArticles == nil then
+		outLatestNews = "Loading"
+		return
+	end
+
+	-- first
+	local article = inArticles[1]
+
+	outLatestNews = article.title
+end
+</string>
 						</dict>
 						<key>userInfo</key>
 						<data>
@@ -480,93 +389,13 @@
 						<key>plugInState</key>
 						<dict>
 							<key>code</key>
-							<data>
-							YnBsaXN0MDDUAQIDBAUG
-							eXpYJHZlcnNpb25YJG9i
-							amVjdHNZJGFyY2hpdmVy
-							VCR0b3ASAAGGoK8QGAcI
-							ERUcJC0uLzc4O0FER09S
-							Wl1laGxwdFUkbnVsbNQJ
-							CgsMDQ4PEFxOU0F0dHJp
-							YnV0ZXNWJGNsYXNzWE5T
-							U3RyaW5nXxAPTlNBdHRy
-							aWJ1dGVJbmZvgASAF4AC
-							gBXSChITFFlOUy5zdHJp
-							bmeAA18QSmluSW4gPSBR
-							Q19TVFJVQ1QKb3V0T3V0
-							ID0gUUNfU1RSVUNUCgpt
-							YWluID0gZnVuY3Rpb24o
-							KQoJb3V0T3V0ID0gaW5J
-							bgplbmQK0hYXGBlaJGNs
-							YXNzbmFtZVgkY2xhc3Nl
-							c18QD05TTXV0YWJsZVN0
-							cmluZ6MYGhtYTlNTdHJp
-							bmdYTlNPYmplY3TSCh0e
-							H1pOUy5vYmplY3RzgBSk
-							ICEiI4AFgA6AEIAS0wol
-							HSYnKldOUy5rZXlzgA2i
-							KCmABoAHoissgAiAC1ZO
-							U0ZvbnRXTlNDb2xvctQK
-							MDEyMzQ1NlZOU05hbWVW
-							TlNTaXplWE5TZkZsYWdz
-							gAqACSNAJAAAAAAAABAQ
-							Vk1vbmFjb9IWFzk6Vk5T
-							Rm9udKI5G9MKPD0+P0Bc
-							TlNDb2xvclNwYWNlVU5T
-							UkdCgAwQAk8QJjAuNjAw
-							MDAwMDIzOCAwLjIwMDAw
-							MDAwMyAwLjYwMDAwMDAy
-							MzgA0hYXQkNXTlNDb2xv
-							cqJCG9IWF0VGXE5TRGlj
-							dGlvbmFyeaJFG9MKJR0m
-							SUyADaIoKYAGgAeiK06A
-							CIAP0wo8PT4/UYAMRjAg
-							MCAwANMKJR0mVFeADaIo
-							KYAGgAeiK1mACIAR0wo8
-							PT4/XIAMTxAnMC4zMDAw
-							MDAwMTE5IDAuMTAwMDAw
-							MDAxNSAwLjMwMDAwMDAx
-							MTkA0wolHSZfYoANoigp
-							gAaAB6IrZIAIgBPTCjw9
-							Pj9ngAxPECUwLjIwMDAw
-							MDAwMyAwLjIwMDAwMDAw
-							MyAwLjY5OTk5OTk4ODEA
-							0hYXaWpeTlNNdXRhYmxl
-							QXJyYXmjaWsbV05TQXJy
-							YXnSCm1ub1dOUy5kYXRh
-							gBZPECQEAAMBCQIBAQYA
-							AwEJAgIBBAADAQgDBAEG
-							AAMBBAABAQMDAQHSFhdx
-							cl1OU011dGFibGVEYXRh
-							o3FzG1ZOU0RhdGHSFhd1
-							dl8QGU5TTXV0YWJsZUF0
-							dHJpYnV0ZWRTdHJpbmej
-							d3gbXxAZTlNNdXRhYmxl
-							QXR0cmlidXRlZFN0cmlu
-							Z18QEk5TQXR0cmlidXRl
-							ZFN0cmluZ18QD05TS2V5
-							ZWRBcmNoaXZlctF7fFRy
-							b290gAEACAARABoAIwAt
-							ADIANwBSAFgAYQBuAHUA
-							fgCQAJIAlACWAJgAnQCn
-							AKkA9gD7AQYBDwEhASUB
-							LgE3ATwBRwFJAU4BUAFS
-							AVQBVgFdAWUBZwFqAWwB
-							bgFxAXMBdQF8AYQBjQGU
-							AZsBpAGmAagBsQGzAboB
-							vwHGAckB0AHdAeMB5QHn
-							AhACFQIdAiACJQIyAjUC
-							PAI+AkECQwJFAkgCSgJM
-							AlMCVQJcAmMCZQJoAmoC
-							bAJvAnECcwJ6AnwCpgKt
-							Aq8CsgK0ArYCuQK7Ar0C
-							xALGAu4C8wMCAwYDDgMT
-							AxsDHQNEA0kDVwNbA2ID
-							ZwODA4cDowO4A8oDzQPS
-							AAAAAAAAAgEAAAAAAAAA
-							fQAAAAAAAAAAAAAAAAAA
-							A9Q=
-							</data>
+							<string>inIn = QC_STRUCT
+outOut = QC_STRUCT
+
+main = function()
+	outOut = inIn
+end
+</string>
 						</dict>
 						<key>userInfo</key>
 						<data>
@@ -585,10 +414,10 @@
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9u
 			YXJ5AISEDE5TRGljdGlvbmFyeQCEhAhOU09iamVjdACFhAFpA5KE
-			hIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUA
-			lYQBKoSEDHtDR1BvaW50PWRkfZsAAYaShJeYCXNjcm9sbGluZ4aS
-			hJmampuBywGDAAAAAABIeECGkoSXmAp6b29tRmFjdG9yhpKEhIQI
-			TlNOdW1iZXIAmZqEhAFmnQGGhg==
+			hIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1i
+			ZXIAhIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5n
+			hpKEmpuEhAx7Q0dQb2ludD1kZH2dgcwBgZABhpKEl5gIcG9zaXRp
+			b26GkoSam56dAAGGhg==
 			</data>
 		</dict>
 	</dict>

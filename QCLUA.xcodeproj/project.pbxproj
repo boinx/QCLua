@@ -12,6 +12,11 @@
 		501912761504EE3200299676 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 501912741504EE3200299676 /* NoodleLineNumberView.m */; };
 		5054364E153C239C008A4EF6 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9CC14FFBA4F003C383D /* loslib.c */; };
 		5056820615078933004A2B25 /* lua+ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056820515078933004A2B25 /* lua+ObjC.m */; };
+		507BE21D1A66622A0005CAD6 /* LUA-Add.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE2181A66622A0005CAD6 /* LUA-Add.qtz */; };
+		507BE21E1A66622A0005CAD6 /* LUA-AirHockey.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE2191A66622A0005CAD6 /* LUA-AirHockey.qtz */; };
+		507BE21F1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE21A1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz */; };
+		507BE2201A66622A0005CAD6 /* LUA-ReadStructures.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE21B1A66622A0005CAD6 /* LUA-ReadStructures.qtz */; };
+		507BE2211A66622A0005CAD6 /* LUA-ReadWriteStructures.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE21C1A66622A0005CAD6 /* LUA-ReadWriteStructures.qtz */; };
 		50848B0A1500F45A00A64E33 /* QCLUAPlugInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50848B091500F45A00A64E33 /* QCLUAPlugInViewController.m */; };
 		50848B0D1500F47400A64E33 /* QCLUAPlugInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50848B0C1500F47400A64E33 /* QCLUAPlugInViewController.xib */; };
 		50C0000F151CA34B00E7788A /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9B614FFBA4F003C383D /* ldebug.c */; };
@@ -62,6 +67,11 @@
 		5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BuildNumber.xcconfig; sourceTree = "<group>"; };
 		5056820415078932004A2B25 /* lua+ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lua+ObjC.h"; sourceTree = "<group>"; };
 		5056820515078933004A2B25 /* lua+ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "lua+ObjC.m"; sourceTree = "<group>"; };
+		507BE2181A66622A0005CAD6 /* LUA-Add.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-Add.qtz"; sourceTree = "<group>"; };
+		507BE2191A66622A0005CAD6 /* LUA-AirHockey.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-AirHockey.qtz"; sourceTree = "<group>"; };
+		507BE21A1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-QCSupportFunctions.qtz"; sourceTree = "<group>"; };
+		507BE21B1A66622A0005CAD6 /* LUA-ReadStructures.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-ReadStructures.qtz"; sourceTree = "<group>"; };
+		507BE21C1A66622A0005CAD6 /* LUA-ReadWriteStructures.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-ReadWriteStructures.qtz"; sourceTree = "<group>"; };
 		50848B081500F45A00A64E33 /* QCLUAPlugInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLUAPlugInViewController.h; sourceTree = "<group>"; };
 		50848B091500F45A00A64E33 /* QCLUAPlugInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLUAPlugInViewController.m; sourceTree = "<group>"; };
 		50848B0C1500F47400A64E33 /* QCLUAPlugInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCLUAPlugInViewController.xib; sourceTree = "<group>"; };
@@ -169,12 +179,25 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
+		507BE2171A66622A0005CAD6 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				507BE2181A66622A0005CAD6 /* LUA-Add.qtz */,
+				507BE2191A66622A0005CAD6 /* LUA-AirHockey.qtz */,
+				507BE21A1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz */,
+				507BE21B1A66622A0005CAD6 /* LUA-ReadStructures.qtz */,
+				507BE21C1A66622A0005CAD6 /* LUA-ReadWriteStructures.qtz */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
 		50FCC97C14FF88F7003C383D = {
 			isa = PBXGroup;
 			children = (
 				4C43CD9217A8FD6F00F3CC9D /* Scripts */,
 				5047400916DF77B000EA74CC /* Config */,
 				50FCC99514FF88F7003C383D /* QCLUA */,
+				507BE2171A66622A0005CAD6 /* Samples */,
 				50FCC98A14FF88F7003C383D /* Frameworks */,
 				50FCC98914FF88F7003C383D /* Products */,
 			);
@@ -351,8 +374,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507BE2201A66622A0005CAD6 /* LUA-ReadStructures.qtz in Resources */,
+				507BE21E1A66622A0005CAD6 /* LUA-AirHockey.qtz in Resources */,
+				507BE21D1A66622A0005CAD6 /* LUA-Add.qtz in Resources */,
 				50FCCA0814FFC5FE003C383D /* Template.lua in Resources */,
 				50848B0D1500F47400A64E33 /* QCLUAPlugInViewController.xib in Resources */,
+				507BE21F1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz in Resources */,
+				507BE2211A66622A0005CAD6 /* LUA-ReadWriteStructures.qtz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,7 @@
 	<key>CFBundleVersion</key>
 	<string>${BX_BUILD_NUMBER}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 Boinx Software. All rights reserved.</string>
+	<string>© 1994–2015 Lua.org, PUC-Rio &amp; © 2013-2015 Boinx Software Ltd.</string>
 	<key>QCPlugInClasses</key>
 	<array>
 		<string>QCLUAPlugIn</string>

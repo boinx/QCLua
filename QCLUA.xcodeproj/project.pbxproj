@@ -56,7 +56,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C43CD9317A8FD8100F3CC9D /* BXRevision.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = BXRevision.sh; sourceTree = "<group>"; };
 		5019126E1504D58600299676 /* QCLUAFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLUAFormatter.h; sourceTree = "<group>"; };
 		5019126F1504D58600299676 /* QCLUAFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLUAFormatter.m; sourceTree = "<group>"; };
 		501912711504EE3200299676 /* NoodleLineNumberMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberMarker.h; sourceTree = "<group>"; };
@@ -72,6 +71,8 @@
 		507BE21A1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-QCSupportFunctions.qtz"; sourceTree = "<group>"; };
 		507BE21B1A66622A0005CAD6 /* LUA-ReadStructures.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-ReadStructures.qtz"; sourceTree = "<group>"; };
 		507BE21C1A66622A0005CAD6 /* LUA-ReadWriteStructures.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "LUA-ReadWriteStructures.qtz"; sourceTree = "<group>"; };
+		507BE2221A666C4A0005CAD6 /* InstallPlugIn.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = InstallPlugIn.sh; sourceTree = "<group>"; };
+		507BE2231A666C4A0005CAD6 /* UpdateBuildNumber.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = UpdateBuildNumber.sh; sourceTree = "<group>"; };
 		50848B081500F45A00A64E33 /* QCLUAPlugInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLUAPlugInViewController.h; sourceTree = "<group>"; };
 		50848B091500F45A00A64E33 /* QCLUAPlugInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLUAPlugInViewController.m; sourceTree = "<group>"; };
 		50848B0C1500F47400A64E33 /* QCLUAPlugInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCLUAPlugInViewController.xib; sourceTree = "<group>"; };
@@ -165,7 +166,8 @@
 		4C43CD9217A8FD6F00F3CC9D /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				4C43CD9317A8FD8100F3CC9D /* BXRevision.sh */,
+				507BE2221A666C4A0005CAD6 /* InstallPlugIn.sh */,
+				507BE2231A666C4A0005CAD6 /* UpdateBuildNumber.sh */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";

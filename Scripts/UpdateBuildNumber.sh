@@ -1,12 +1,5 @@
 #!/bin/sh
 
-#  BXRevision.sh
-#  QCLUA
-#
-#  Created by Michael Ehrmann on 31.07.13.
-#  Copyright (c) 2013 Boinx Software. All rights reserved.
-
-
 SCRIPT_DIR=$(dirname $0)
 GIT_DIR=$(dirname "${SCRIPT_DIR}")
 

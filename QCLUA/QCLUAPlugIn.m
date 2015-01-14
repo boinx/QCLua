@@ -90,10 +90,6 @@ static NSString * const QCLUAPlugInPreviousValue = @"QCLUAPlugInPreviousValue";
 			@"Program", // used by JavaScript patch
 		],
 		QCPlugInAttributeExamplesKey: @[
-			@"LUA-Add.qtz",
-			@"LUA-ReadStructures.qtz",
-			@"LUA-ReadWriteStructures.qtz",
-			@"LUA-QCSupportFunctions.qtz",
 			@"LUA-AirHockey.qtz",
 		],
 	};

@@ -1,3 +1,7 @@
+env:
+  - CODE_SIGN_IDENTITY=""
+  - CODE_SIGNING_REQUIRED=NO
+
 language: objective-c
 xcode_project: QCLUA.xcodeproj
 xcode_scheme: QCLUA

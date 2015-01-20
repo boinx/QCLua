@@ -1,1 +1,4 @@
-xctool -project QCLUA.xcodeproj -scheme QCLUA build test CODE_SIGN_IDENTITY="" CODE_SIGN_ENTITLEMENTS="" CODE_SIGNING_REQUIRED=NO
+env: CODE_SIGN_IDENTITY="" CODE_SIGN_ENTITLEMENTS="" CODE_SIGNING_REQUIRED=NO
+language: objective-c
+xcode_project: QCLUA.xcodeproj
+xcode_scheme: QCLUA

@@ -10,6 +10,7 @@
 		501912701504D58600299676 /* QCLUAFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5019126F1504D58600299676 /* QCLUAFormatter.m */; };
 		501912751504EE3200299676 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 501912721504EE3200299676 /* NoodleLineNumberMarker.m */; };
 		501912761504EE3200299676 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 501912741504EE3200299676 /* NoodleLineNumberView.m */; };
+		5040DC4F1A6E6222003E6281 /* travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5040DC4E1A6E6222003E6281 /* travis.yml */; };
 		5054364E153C239C008A4EF6 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9CC14FFBA4F003C383D /* loslib.c */; };
 		5056820615078933004A2B25 /* lua+ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056820515078933004A2B25 /* lua+ObjC.m */; };
 		507BE21D1A66622A0005CAD6 /* LUA-Add.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE2181A66622A0005CAD6 /* LUA-Add.qtz */; };
@@ -62,6 +63,7 @@
 		501912721504EE3200299676 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberMarker.m; sourceTree = "<group>"; };
 		501912731504EE3200299676 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberView.h; sourceTree = "<group>"; };
 		501912741504EE3200299676 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberView.m; sourceTree = "<group>"; };
+		5040DC4E1A6E6222003E6281 /* travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = travis.yml; sourceTree = SOURCE_ROOT; };
 		5047400A16DF77E700EA74CC /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BuildNumber.xcconfig; sourceTree = "<group>"; };
 		5056820415078932004A2B25 /* lua+ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lua+ObjC.h"; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			children = (
 				5047400B16DF781D00EA74CC /* BuildNumber.xcconfig */,
 				5047400A16DF77E700EA74CC /* Project.xcconfig */,
+				5040DC4E1A6E6222003E6281 /* travis.yml */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				507BE2201A66622A0005CAD6 /* LUA-ReadStructures.qtz in Resources */,
 				507BE21E1A66622A0005CAD6 /* LUA-AirHockey.qtz in Resources */,
 				507BE21D1A66622A0005CAD6 /* LUA-Add.qtz in Resources */,
+				5040DC4F1A6E6222003E6281 /* travis.yml in Resources */,
 				50FCCA0814FFC5FE003C383D /* Template.lua in Resources */,
 				50848B0D1500F47400A64E33 /* QCLUAPlugInViewController.xib in Resources */,
 				507BE21F1A66622A0005CAD6 /* LUA-QCSupportFunctions.qtz in Resources */,

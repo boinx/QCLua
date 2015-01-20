@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: QCLUA.xcodeproj
+xcode_scheme: QCLUA

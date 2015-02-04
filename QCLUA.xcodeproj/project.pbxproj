@@ -11,7 +11,6 @@
 		501912751504EE3200299676 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 501912721504EE3200299676 /* NoodleLineNumberMarker.m */; };
 		501912761504EE3200299676 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 501912741504EE3200299676 /* NoodleLineNumberView.m */; };
 		5040DC511A6E639D003E6281 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5040DC501A6E639D003E6281 /* .travis.yml */; };
-		5054364E153C239C008A4EF6 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9CC14FFBA4F003C383D /* loslib.c */; };
 		5056820615078933004A2B25 /* lua+ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5056820515078933004A2B25 /* lua+ObjC.m */; };
 		507BE21D1A66622A0005CAD6 /* LUA-Add.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE2181A66622A0005CAD6 /* LUA-Add.qtz */; };
 		507BE21E1A66622A0005CAD6 /* LUA-AirHockey.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 507BE2191A66622A0005CAD6 /* LUA-AirHockey.qtz */; };
@@ -478,7 +477,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -510,7 +509,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;

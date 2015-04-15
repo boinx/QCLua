@@ -26,13 +26,13 @@
 		50FCC98E14FF88F7003C383D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FCC98D14FF88F7003C383D /* Quartz.framework */; };
 		50FCC99D14FF88F7003C383D /* QCLUAPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC99C14FF88F7003C383D /* QCLUAPlugIn.m */; };
 		50FCC9E514FFBA4F003C383D /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AA14FFBA4F003C383D /* lapi.c */; };
-		50FCC9E614FFBA4F003C383D /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AC14FFBA4F003C383D /* lauxlib.c */; settings = {COMPILER_FLAGS = "-Xanalyzer -analyzer-disable-checker"; }; };
+		50FCC9E614FFBA4F003C383D /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AC14FFBA4F003C383D /* lauxlib.c */; };
 		50FCC9E714FFBA4F003C383D /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AE14FFBA4F003C383D /* lbaselib.c */; };
 		50FCC9E814FFBA4F003C383D /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9AF14FFBA4F003C383D /* lbitlib.c */; };
 		50FCC9E914FFBA4F003C383D /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9B014FFBA4F003C383D /* lcode.c */; };
 		50FCC9EA14FFBA4F003C383D /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9B214FFBA4F003C383D /* lcorolib.c */; };
 		50FCC9EB14FFBA4F003C383D /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9B314FFBA4F003C383D /* lctype.c */; };
-		50FCC9EE14FFBA4F003C383D /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9B814FFBA4F003C383D /* ldo.c */; settings = {COMPILER_FLAGS = "-Xanalyzer -analyzer-disable-checker"; }; };
+		50FCC9EE14FFBA4F003C383D /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9B814FFBA4F003C383D /* ldo.c */; };
 		50FCC9EF14FFBA4F003C383D /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9BA14FFBA4F003C383D /* ldump.c */; };
 		50FCC9F014FFBA4F003C383D /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9BB14FFBA4F003C383D /* lfunc.c */; };
 		50FCC9F114FFBA4F003C383D /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 50FCC9BD14FFBA4F003C383D /* lgc.c */; };
@@ -89,7 +89,6 @@
 		50FCC99714FF88F7003C383D /* QCLUA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QCLUA-Info.plist"; sourceTree = "<group>"; };
 		50FCC99B14FF88F7003C383D /* QCLUAPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCLUAPlugIn.h; sourceTree = "<group>"; };
 		50FCC99C14FF88F7003C383D /* QCLUAPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCLUAPlugIn.m; sourceTree = "<group>"; };
-		50FCC99E14FF88F7003C383D /* QCLUA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCLUA-Prefix.pch"; sourceTree = "<group>"; };
 		50FCC9AA14FFBA4F003C383D /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
 		50FCC9AB14FFBA4F003C383D /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
 		50FCC9AC14FFBA4F003C383D /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
@@ -236,7 +235,6 @@
 				5056820515078933004A2B25 /* lua+ObjC.m */,
 				50CB4E78150A21690068D9E4 /* lua+QuartzComposer.h */,
 				50CB4E79150A21690068D9E4 /* lua+QuartzComposer.m */,
-				50FCC99E14FF88F7003C383D /* QCLUA-Prefix.pch */,
 				50FCC99B14FF88F7003C383D /* QCLUAPlugIn.h */,
 				50FCC99C14FF88F7003C383D /* QCLUAPlugIn.m */,
 				50848B081500F45A00A64E33 /* QCLUAPlugInViewController.h */,
@@ -517,7 +515,6 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QCLUA/QCLUA-Prefix.pch";
 				INFOPLIST_FILE = "QCLUA/QCLUA-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -531,7 +528,6 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QCLUA/QCLUA-Prefix.pch";
 				INFOPLIST_FILE = "QCLUA/QCLUA-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
